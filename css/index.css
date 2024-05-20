@@ -150,28 +150,10 @@ header nav .form i {
     transform: translateY(-50%);
     right: 0;
 }
-/* header nav ul li{
-	position: relative;
-}
-header nav ul li::before{
-    content: " ";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: var(--transparentColor);
-    border-radius: 6px;
-    z-index: -1;
-    transition: transform .4s ease;
-	transform: scaleX(0);
-}
-header nav ul li:hover::before{
-	transform: scaleX(1);
-} */
+
 
 .landing{
-background: url("/images/landing.jpg");
+background: url("images/landing.jpg");
 position: relative;
 width: auto;
 height: 440px;
